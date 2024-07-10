@@ -2,3 +2,169 @@
 body{
     font-family: Azeret Mono;
 }
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+/* 1st heading part start here */
+.name-content{
+position: absolute;
+width: 114px;
+height: 34px;
+left: 150px;
+top: 50px;
+}
+.name-content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+    } 
+
+    /* form 2 section styles starts here */
+    .form-two-conteiner{
+        width: 228px;
+        /* border: 2px solid red; */
+        position:absolute;
+        height: 58px;
+        right: 166px;
+        top: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 17px 24px 17px 24px;
+    }
+    .form-two-conteiner{
+        box-sizing: border-box;
+        border: 1px solid rgb(13, 19, 33);
+        border-radius: 8px;
+        opacity: 0.8;
+    }
+    .form-two-conteiner{
+        height: 24px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+      
+    }
+    .form-two-conteiner p{
+        color: rgb(13, 19, 33);
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 23px;
+        text-align: center;
+        /* margin:0 auto; */
+
+    }
+    .main-border-conteiner{
+        width: 1705px;
+        margin: 0 auto;
+        /* border: 2px solid red; */
+        height: 652px;
+        position: absolute;
+        margin-top: 131px;
+        background-image: url(./B10A1-Challenge-Begins-main/assets/Hero-bg.png);
+    /* }
+    .frame-three-border{
+        position:absolute;
+        border: 2px solid red;
+        width: 998px;
+        height: 310px;
+    } */
+    /* .frame-three-border{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 310px;
+        align-items: center;
+        padding: 0px;
+        flex: none;
+        order: 1;
+       align-self: center;
+       flex-grow: 0;
+       margin-left: 221px;
+       margin-right: 221px;
+       margin-top: 298px;
+       margin-bottom: 44px;
+    } */
+    .frame-four-border{
+        position: absolute;
+        /* border: 2px solid red; */
+        width: 998px;
+        height: 582px;
+        left: 221px;
+        right: 221px;
+        top: 13px;
+        bottom: 44px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0px;
+    }
+    .banner-content{
+        position:absolute;
+        width: 998px;
+        height: 136px;
+        margin-top: 298px;
+        margin-bottom: 218px;
+        margin-left: 245px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+         padding: 0px;
+         flex: none;
+    }
+    .banner-content{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        text-align: center;
+
+    }
+      .frame-four-border{
+        background-image: url(./B10A1-Challenge-Begins-main/assets/Group.png);
+        background-repeat: no-repeat;
+        background-position:center top;
+        background-position-x: center;
+        background-origin: border-box;
+    }  
+/* .image-conteinar{
+    background-position: top;
+    
+}
+.banner-content p{
+    margin-top: 30px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+} */
+ .three-border-conteiner{
+    position: static;
+    width: 208px;
+    height: 66px; 
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 24px 21px 24px;
+    margin: 32px 0px;
+    background-color:black;
+ }
+ .three-border-content h2{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+ }
+ .button{
+    background-color: black;
+    margin: 0px 10px;
+    margin-left: 0px;
+ }
