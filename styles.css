@@ -220,17 +220,20 @@ border-radius: 16px;
  }
  .inter-three-conteiner{
     position: static;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 0px;
     width: 852px;
     height: 336px;
     border-radius: 16px;
     margin-left: 140px;
     border-radius: 16px;
+    background-image: url(./B10A1-Challenge-Begins-main/assets/Group\ 3.png);
+    background-repeat: no-repeat;
+    background-position: left;
  }
  .inter-four-conteiner{
     position: static;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 0px;
     width: 852px;
     height: 336px;
@@ -238,6 +241,9 @@ border-radius: 16px;
     margin-left: 140px;
     flex: none;
     border-radius: 16px;
+    background-image: url(./B10A1-Challenge-Begins-main/assets/Group\ 4.png);
+    background-repeat: no-repeat;
+    background-position: right;
  }
  .second-small-content{
     position: static;
@@ -271,7 +277,6 @@ border-radius: 16px;
 .inter-small-content small{
      
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     text-align: left;
     position: static;
     display: flex;
@@ -318,6 +323,96 @@ padding-left: 0px;
    justify-content: center;
   align-items: center;
 }
-.image-conteiner{
-    background-image: url(./B10A1-Challenge-Begins-main/assets/Layer_1.png);
+.inter-three-content h2{
+color: rgba(13, 19, 33, 0.7);
+font-size: 19.3px;
+text-align: left;
+margin-top:25px;
+text-align-last: left;
+margin-left: 275px;
+}
+.inter-three-content small{
+    color: rgb(13, 19, 33);
+    text-align: left;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 16px 0px;
+    margin-left: 275px;
+    margin-right: 100px;
+}
+.two-click-conteiner{
+    /* border: 2px solid red; */
+    position: static;
+    width: 150px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 32px 0px;
+    box-sizing: border-box;
+    /* border: 1px solid rgb(13, 19, 33); */
+    opacity: 0.7;
+    margin-left: 300px;
+}
+.two-click-conteiner button{
+    position: static;
+   width: 140px;
+   height: 40px;
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
+  align-items: center;
+}
+.inter-four-content{
+    position: static;
+    width: 390px;
+    align-items: flex-start;
+}
+.inter-four-content h2{
+    color: rgba(13, 19, 33, 0.7);
+    text-align: left;
+    font-size: 19.3px;
+    margin-top: 25px;
+    margin-left: 25px;
+    
+}
+.inter-four-content small{
+     
+    color: rgb(13, 19, 33);
+    text-align: left;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 16px 0px;
+    margin-left: 25px;
+}
+.four-click-conteiner{
+    /* border: 2px solid red; */
+    position: static;
+    width: 150px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 32px 0px;
+    box-sizing: border-box;
+    /* border: 1px solid rgb(13, 19, 33); */
+    opacity: 0.7;
+    margin-left: 30px;
+}
+.four-click-conteiner button{
+    position: static;
+   width: 140px;
+   height: 40px;
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
+  align-items: center;
 }
