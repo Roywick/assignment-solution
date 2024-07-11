@@ -38,7 +38,7 @@ top: 50px;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding: 17px 24px 17px 24px;
+        /* padding: 17px 24px 17px 24px; */
     }
     .form-two-conteiner{
         box-sizing: border-box;
@@ -68,6 +68,9 @@ top: 50px;
         /* border: 2px solid red; */
         height: 652px;
         position: absolute;
+        background-blend-mode: overlay;
+        background-color: rgba(0,0,0,0.2);
+        background-size: cover;
         margin-top: 131px;
         background-image: url(./B10A1-Challenge-Begins-main/assets/Hero-bg.png);
     /* }
@@ -168,3 +171,153 @@ top: 50px;
     margin: 0px 10px;
     margin-left: 0px;
  }
+ /* .second-conteiner{
+    position: static;
+width: 852px;
+height: 115px;
+border: 2px solid red; */
+ }
+ .second-section-conteiner{
+    width: 852px;
+    height: 115px;
+    /* border: 2px solid red; */
+ }
+ .second-section-conteiner{
+    position: absolute;
+width: 1140px;
+height: 1375px;
+left: 148px;
+right: 152px;
+top: 700px;
+border-radius: 16px;
+background: rgba(13, 19, 33, 0.02);
+ }
+ .second-small-conteiner{
+    position: absolute;
+width: 852px;
+/* border: 2px solid red; */
+height: 115px;
+margin-left: 140px;
+margin-top: 80px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+border-radius: 16px;
+ }
+ .inter-small-conteiner{
+    position: static;
+    /* border: 2px solid red; */
+    margin-top: 225px;
+    width: 852px;
+    height: 336px;
+    border-radius: 16px;
+    margin-left: 140px;
+    background-image: url(./B10A1-Challenge-Begins-main/assets/Layer_1.png);
+    background-repeat: no-repeat;
+    background-position:  right;
+ }
+ .inter-three-conteiner{
+    position: static;
+    border: 2px solid red;
+    margin-top: 0px;
+    width: 852px;
+    height: 336px;
+    border-radius: 16px;
+    margin-left: 140px;
+    border-radius: 16px;
+ }
+ .inter-four-conteiner{
+    position: static;
+    border: 2px solid red;
+    margin-top: 0px;
+    width: 852px;
+    height: 336px;
+    border-radius: 16px;
+    margin-left: 140px;
+    flex: none;
+    border-radius: 16px;
+ }
+ .second-small-content{
+    position: static;
+    width: 852px;
+    align-items: center;
+ }
+ .second-small-content h3{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    text-align: center;
+ }
+ .second-small-content p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    text-align: center;
+    margin: 18px 0px;
+ }
+.inter-small-content{
+    position: static;
+    width: 390px;
+    align-items: flex-start;
+}
+.inter-small-content h2{
+    color: rgba(13, 19, 33, 0.7);
+    text-align: left;
+    font-size: 19.3px;
+    margin-top: 25px;
+    margin-left: 25px;
+    
+}
+.inter-small-content small{
+     
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    text-align: left;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 16px 0px;
+    margin-left: 25px;
+}
+/* .click-conteiner{
+position: static;
+border: 2px solid red;
+width: 150px;
+height: 48px;
+padding: 12px 20px 12px 20px;
+margin: 250px ;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-left: 0px;
+} */
+.click-conteiner{
+    /* border: 2px solid red; */
+    position: static;
+    width: 150px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 32px 0px;
+    box-sizing: border-box;
+    /* border: 1px solid rgb(13, 19, 33); */
+    opacity: 0.7;
+    margin-left: 30px;
+}
+.click-conteiner button{
+    position: static;
+   width: 140px;
+   height: 40px;
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
+  align-items: center;
+}
+.image-conteiner{
+    background-image: url(./B10A1-Challenge-Begins-main/assets/Layer_1.png);
+}
